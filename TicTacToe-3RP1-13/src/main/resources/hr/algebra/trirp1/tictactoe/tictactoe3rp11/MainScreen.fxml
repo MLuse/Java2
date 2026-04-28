@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.algebra.trirp1.tictactoe.tictactoe3rp11.controller.TicTacToeMainController">
+    <children>
+        <Line endX="52.0" endY="146.0" layoutX="243.0" layoutY="401.0" startX="54.0" startY="-310.0" />
+        <Line endX="546.0" endY="554.0" layoutX="-98.0" layoutY="-7.0" startX="545.0" startY="98.0" />
+        <Line endX="249.0" endY="114.0" layoutX="351.0" layoutY="129.0" startX="-210.0" startY="114.0" />
+        <Line endX="376.0" layoutX="223.0" layoutY="396.0" startX="-79.0" />
+        <Button fx:id="buttonbr" layoutX="448.0" layoutY="397.0" mnemonicParsing="false" onAction="#buttonPressed" prefHeight="150.0" prefWidth="150.0">
+            <font>
+                <Font size="36.0" />
+            </font>
+        </Button>
+        <Button fx:id="buttontl" layoutX="145.0" layoutY="91.0" mnemonicParsing="false" onAction="#buttonPressed" prefHeight="150.0" prefWidth="150.0">
+            <font>
+                <Font size="36.0" />
+            </font>
+        </Button>
+        <Button fx:id="buttonbc" layoutX="296.0" layoutY="397.0" mnemonicParsing="false" onAction="#buttonPressed" prefHeight="150.0" prefWidth="150.0">
+            <font>
+                <Font size="36.0" />
+            </font>
+        </Button>
+        <Button fx:id="buttonbl" layoutX="145.0" layoutY="397.0" mnemonicParsing="false" onAction="#buttonPressed" prefHeight="150.0" prefWidth="150.0">
+            <font>
+                <Font size="36.0" />
+            </font>
+        </Button>
+        <Button fx:id="buttonmr" layoutX="448.0" layoutY="244.0" mnemonicParsing="false" onAction="#buttonPressed" prefHeight="150.0" prefWidth="150.0">
+            <font>
+                <Font size="36.0" />
+            </font>
+        </Button>
+        <Button fx:id="buttonmc" layoutX="297.0" layoutY="244.0" mnemonicParsing="false" onAction="#buttonPressed" prefHeight="150.0" prefWidth="150.0">
+            <font>
+                <Font size="36.0" />
+            </font>
+        </Button>
+        <Button fx:id="buttonml" layoutX="145.0" layoutY="244.0" mnemonicParsing="false" onAction="#buttonPressed" prefHeight="150.0" prefWidth="150.0">
+            <font>
+                <Font size="36.0" />
+            </font>
+        </Button>
+        <Button fx:id="buttontr" layoutX="448.0" layoutY="91.0" mnemonicParsing="false" onAction="#buttonPressed" prefHeight="150.0" prefWidth="150.0">
+            <font>
+                <Font size="36.0" />
+            </font>
+        </Button>
+        <Button fx:id="buttontc" layoutX="297.0" layoutY="91.0" mnemonicParsing="false" onAction="#buttonPressed" prefHeight="150.0" prefWidth="150.0">
+            <font>
+                <Font size="36.0" />
+            </font>
+        </Button>
+        <MenuBar prefHeight="25.0" prefWidth="800.0">
+            <menus>
+                <Menu mnemonicParsing="false" text="Game">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#startNewGame" text="New" />
+                        <MenuItem mnemonicParsing="false" onAction="#saveGame" text="Save" />
+                        <MenuItem mnemonicParsing="false" onAction="#loadGame" text="Load" />
+                        <MenuItem mnemonicParsing="false" onAction="#replayGame" text="Replay" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Documentation">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#generateDocumentation" text="Generate" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+      <TextField fx:id="chatMessageTextField" layoutX="149.0" layoutY="581.0" prefHeight="25.0" prefWidth="446.0" />
+      <TextArea fx:id="chatMessageTextArea" layoutX="149.0" layoutY="629.0" prefHeight="87.0" prefWidth="446.0" />
+      <Button fx:id="chatMessageButton" layoutX="610.0" layoutY="581.0" mnemonicParsing="false" onAction="#sendChatMessage" text="Send message" />
+      <Label fx:id="theLastGameMoveLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="144.0" layoutY="45.0" prefHeight="17.0" prefWidth="456.0" textAlignment="CENTER" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE GameMoves SYSTEM "dtd/gameMoves.dtd">
+<GameMoves>
+    <GameMove>
+        <Symbol>X</Symbol>
+        <PositionX>0</PositionX>
+        <PositionY>0</PositionY>
+    </GameMove>
+    <GameMove>
+        <Symbol>O</Symbol>
+        <PositionX>0</PositionX>
+        <PositionY>1</PositionY>
+    </GameMove>
+    <GameMove>
+        <Symbol>X</Symbol>
+        <PositionX>1</PositionX>
+        <PositionY>0</PositionY>
+    </GameMove>
+    <GameMove>
+        <Symbol>O</Symbol>
+        <PositionX>1</PositionX>
+        <PositionY>1</PositionY>
+    </GameMove>
+    <GameMove>
+        <Symbol>X</Symbol>
+        <PositionX>2</PositionX>
+        <PositionY>0</PositionY>
+    </GameMove>
+    <GameMove>
+        <Symbol>X</Symbol>
+        <PositionX>0</PositionX>
+        <PositionY>0</PositionY>
+    </GameMove>
+    <GameMove>
+        <Symbol>O</Symbol>
+        <PositionX>1</PositionX>
+        <PositionY>0</PositionY>
+    </GameMove>
+    <GameMove>
+        <Symbol>X</Symbol>
+        <PositionX>0</PositionX>
+        <PositionY>1</PositionY>
+    </GameMove>
+    <GameMove>
+        <Symbol>O</Symbol>
+        <PositionX>1</PositionX>
+        <PositionY>1</PositionY>
+    </GameMove>
+    <GameMove>
+        <Symbol>X</Symbol>
+        <PositionX>0</PositionX>
+        <PositionY>2</PositionY>
+    </GameMove>
+</GameMoves>
